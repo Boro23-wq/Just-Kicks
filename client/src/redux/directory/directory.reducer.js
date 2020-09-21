@@ -1,38 +1,43 @@
-export const INITIAL_STATE = {
+const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'nike',
+      imageUrl:
+        'https://i.pinimg.com/originals/15/c2/01/15c2017f3f78bcd87e9d30e104f7eab9.gif',
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/nike',
     },
     {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'adidas',
+      imageUrl:
+        'https://i1.wp.com/hypebeast.com/wp-content/blogs.dir/6/files/2016/08/adidas-nmd-r1-white-black-reflective-01.gif?quality=95&w=1170',
       id: 2,
-      linkUrl: 'shop/jackets'
+      linkUrl: 'shop/adidas',
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'converse',
+      imageUrl:
+        'https://i.pinimg.com/originals/5f/ce/0b/5fce0b7687e6fcc22302a9ac05e55366.gif',
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/converse',
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'air jordan',
+      imageUrl:
+        'https://weartesters.com/wp-content/uploads/2016/08/These-Two-Air-Jordan-1s-Ditch-the-Iconic-Wings-Logo-3.jpg',
       size: 'large',
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/airjordan',
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'vans',
+      imageUrl:
+        'https://i.pinimg.com/originals/4d/1f/69/4d1f69a73dcfd91caa98b7b24110eda0.gif',
       size: 'large',
       id: 5,
-      linkUrl: 'shop/mens'
-    }
-  ]
+      linkUrl: 'shop/vans',
+    },
+  ],
 };
 
 const directoryReducer = (state = INITIAL_STATE, action) => {
