@@ -22,12 +22,12 @@ const INITIAL_STATE = {
       linkUrl: 'shop/converse',
     },
     {
-      title: 'air jordan',
+      title: 'airjordan',
       imageUrl:
         'https://weartesters.com/wp-content/uploads/2016/08/These-Two-Air-Jordan-1s-Ditch-the-Iconic-Wings-Logo-3.jpg',
       size: 'large',
       id: 4,
-      linkUrl: 'shop/airjordan',
+      linkUrl: 'shop/air%20jordan',
     },
     {
       title: 'vans',
