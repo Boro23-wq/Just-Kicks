@@ -15,8 +15,6 @@ import {
 } from './cart-dropdown.styles';
 
 export const CartDropdown = ({ currentUser, cartItems, history, dispatch }) => {
-  console.log(currentUser);
-
   return (
     <CartDropdownContainer>
       <CartItemsContainer>
